@@ -33,8 +33,18 @@
         <h1>Reviews List</h2>
         You can use this box for Task 2!
 
+        <br />
+        <br />
+        <div class="mode">
+          <label>Display Mode 1<input type="radio" value="mode-1" name="mode" checked></input><span /></label>
+          <label>Display Mode 2<input type="radio" value="mode-2" name="mode"></input><span /></label>
+        </div>
+
+        <ul id="reviews" class="mode-1"></ul>
+        <button id="refresh"><span>Refresh</span></button>
         <!-- insert PHP code here -->
       </div>
     </main>
+    <script src="/js/task_1.js"></script>
   </body>
 </html>
